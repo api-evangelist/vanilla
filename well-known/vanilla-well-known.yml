@@ -1,0 +1,51 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of justvanilla.com hosts
+note: No genuine well-known discovery documents are published. app.justvanilla.com
+  returns HTTP 200 for every path via an SPA catch-all (content-type text/html,
+  index.html); those are recorded as spa_catch_all and not saved. The security.txt
+  on help.justvanilla.com belongs to Intercom (the third-party help-desk vendor),
+  not Vanilla, and is not claimed as a Vanilla artifact.
+hosts:
+- host: https://www.justvanilla.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.justvanilla.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    spa_catch_all: true
+  - path: /.well-known/openid-configuration
+    status: 200
+    spa_catch_all: true
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    spa_catch_all: true
+  - path: /.well-known/api-catalog
+    status: 200
+    spa_catch_all: true
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    spa_catch_all: true
+- host: https://help.justvanilla.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    third_party: intercom
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

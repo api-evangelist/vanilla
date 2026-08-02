@@ -1,8 +1,26 @@
 aid: vanilla
 name: Vanilla
-description: Vanilla is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vanilla (Vanilla Technologies Inc.) is an estate planning platform for
+  financial advisors, RIAs, and wealth management firms. The platform provides AI-powered
+  estate document analysis and estate health assessments, estate visualization, scenario
+  modeling for tax strategies, and estate document creation, letting advisors deliver
+  estate planning across clients at all wealth levels. Vanilla is SOC 2 Type II audited
+  and integrates with wealth management platforms including Salesforce, Orion, Black
+  Diamond, Addepar, eMoney, and Plaid. Backed by Insight Partners. No public developer
+  portal or API documentation is published; the api.justvanilla.com host is private.
 url: https://raw.githubusercontent.com/api-evangelist/vanilla/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.justvanilla.com/wp-content/uploads/2025/02/social-preview-iamge.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Estate Planning
+- Wealth Management
+- Financial Advisors
+- FinTech
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/vanilla-trust-center.yml
+- type: DomainSecurity
+  url: security/vanilla-domain-security.yml
 - type: Website
   url: https://www.justvanilla.com/
+- type: LLMsTxt
+  url: llms/vanilla-llms.txt
+- type: Compliance
+  url: https://trust.justvanilla.com/
+- type: Blog
+  url: https://www.justvanilla.com/blog
+- type: Support
+  url: https://www.justvanilla.com/support
+- type: HelpCenter
+  url: https://help.justvanilla.com/en
+- type: Pricing
+  url: https://www.justvanilla.com/pricing
+- type: TermsOfService
+  url: https://www.justvanilla.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.justvanilla.com/privacy-policy
+- type: Login
+  url: https://app.justvanilla.com/
+- type: GitHubOrganization
+  url: https://github.com/justvanilla
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

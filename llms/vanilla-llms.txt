@@ -1,0 +1,31 @@
+# Vanilla
+
+> Vanilla (Vanilla Technologies Inc., justvanilla.com) is an estate planning platform for financial advisors, RIAs, and wealth management firms. It provides AI-powered estate document analysis and health assessments, estate visualization, scenario modeling for tax strategies, and estate document creation. Vanilla is SOC 2 Type II audited and integrates with wealth platforms including Salesforce, Orion, Black Diamond, Addepar, eMoney, and Plaid. Vanilla does not currently publish a public developer portal, API documentation, or client SDKs; api.justvanilla.com exists (AWS API Gateway) but is private.
+
+## Product
+
+- [Product overview](https://www.justvanilla.com/product): Estate planning platform for advisors
+- [Vanilla AI (V/AI)](https://www.justvanilla.com/product-vai): AI document analysis and estate insights
+- [Document builder](https://www.justvanilla.com/product-document-builder): Estate document creation
+- [Scenario modeling](https://www.justvanilla.com/product-scenarios): Estate and tax strategy modeling
+- [Integrations](https://www.justvanilla.com/integrations): Salesforce, Orion, Black Diamond, Addepar, eMoney, Plaid
+
+## Docs
+
+- [Help center](https://help.justvanilla.com/en): Product knowledge base (Intercom)
+- [Guides](https://www.justvanilla.com/guides): Estate planning guides
+- [Blog](https://www.justvanilla.com/blog): Company blog
+
+## Company
+
+- [About](https://www.justvanilla.com/aboutus): Company background
+- [Pricing](https://www.justvanilla.com/pricing): Plans and pricing
+- [Trust & security](https://www.justvanilla.com/trust/security): Security overview (SOC 2 Type II, AES-256, SSO, MFA)
+- [Trust center](https://trust.justvanilla.com/): SafeBase trust center
+- [Terms of service](https://www.justvanilla.com/terms-of-service)
+- [Privacy policy](https://www.justvanilla.com/privacy-policy)
+- [GitHub organization](https://github.com/justvanilla): Public repos are infrastructure forks only
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/vanilla/refs/heads/main/apis.yml): APIs.json profile for Vanilla
