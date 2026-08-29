@@ -9,6 +9,17 @@ description: Vanilla (Vanilla Technologies Inc.) is an estate planning platform 
   Diamond, Addepar, eMoney, and Plaid. Backed by Insight Partners. No public developer
   portal or API documentation is published; the api.justvanilla.com host is private.
 url: https://raw.githubusercontent.com/api-evangelist/vanilla/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
